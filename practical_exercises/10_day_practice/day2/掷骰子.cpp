@@ -6,9 +6,9 @@ int main(int argc, char const *argv[])
 {
     int flag;
     unsigned seed;
-    cout<<"ÇëÊäÈëÎŞ·ûºÅÕûÊı£º"<<endl;
+    cout<<"Ã‡Ã«ÃŠÃ¤ÃˆÃ«ÃÃÂ·Ã»ÂºÃ…Ã•Ã»ÃŠÃ½Â£Âº"<<endl;
     cin>>seed;
-    srand(seed);
+    srand(seed);    //è®¾ç½®éšæœºæ•°ç§å­
     int sum = rolldice();
     int selfdim;
     switch(sum)
